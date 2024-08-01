@@ -1,0 +1,17 @@
+form{
+    margin: 120px;
+    padding: 120px;
+    display: block;
+    align-items: center;
+}
+ 
+.nav button{
+    align-items: flex-start;
+    margin-bottom: -90px;
+    margin-left: -15px;
+    margin-right: -15px;
+    display: block;
+    text-decoration: none;
+    justify-content: flex-start;
+    
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="/html/style.css">
+</head>
+
+<body>
+    <form action="">
+        <h3>Login</h3>
+        <input type="text" placeholder="login" name="login" id="login">
+        <h3>senha</h3>
+        <input type="password" placeholder="password" name="senha" id="senha">
+        <input type="submit" onclick="logar()">
+    </form>
+    <SCript>
+        function logar() {  
+            var login = document.getElementById("login").value
+            var senha = document.getElementById("senha").value
+            <!--final variaveis -->
+            if (login == "mizu" && senha =='senha') {
+                window.alert("seja bem vindo.")
+            } else {
+                window.alert("senha ou usuario incorreto, favor tente novamente")
+            }}
+    </SCript>
+<div class="nav">
+    <button> <a href="http://127.0.0.1:5500/html/idade.html"> Calcular idade</a></button>
+    <button> <a href="http://127.0.0.1:5500/html/media.html"> Calcular media</a></button>
+    <button> <a href="http://127.0.0.1:5500/html/parimpar.html"> Calcular par-impar</a></button>
+</div>
+
+</body>
+
+</html>
